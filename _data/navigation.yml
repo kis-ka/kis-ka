@@ -1,0 +1,34 @@
+#Please use the main menu items under the "text"
+
+- text: HOME
+  url: /pages/index-3
+  # submenu:
+  # - text: Home 2
+  #   url: /pages/index-2
+  # - text: Home 3
+  #   url: /pages/index-3
+- text: GALLERY
+  url: /pages/about
+- text: COURSES
+  url: /pages/blog
+- text: SALON
+  url: /pages/services
+- text: BLOG
+  url: /pages/blog
+- text: CONTACT
+  url: /
+  submenu:
+  - text: Services
+    url: /pages/services
+  - text: Service Details
+    url: /pages/services-details
+  - text: Portfolio
+    url: /pages/portfolio   
+  - text: Portfolio Details
+    url: /pages/portfolio-details 
+  - text: About Us
+    url: /pages/about
+  - text: Contact
+    url: /pages/contact
+  - text: 404
+    url: /pages/404
