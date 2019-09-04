@@ -41,6 +41,10 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/foundation.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/twentytwenty.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/twentytwenty-no-compass.css">
+
     <title>{{site.title}}</title>
     {% feed_meta %}
 </head>
@@ -54,6 +58,9 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="{{site.baseurl}}/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        var jQuery_1_12_4 = $.noConflict(true);
+    </script>
     <script src="{{site.baseurl}}/assets/js/popper.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/slick.min.js"></script>
@@ -67,6 +74,11 @@
     <script src="{{site.baseurl}}/assets/js/scrollup.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/simple-jekyll-search.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/main.js"></script>
+    <!-- Second jQuery  -->
+    <script src="{{site.baseurl}}/assets/js/jquery-3.4.1.min.js"></script>    
+
+    <script src="{{site.baseurl}}/assets/js/override.js"></script>    
+    
 </body>
 
 </html>

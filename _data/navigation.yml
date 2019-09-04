@@ -1,22 +1,16 @@
 #Please use the main menu items under the "text"
 
 - text: HOME
-  url: /pages/index-3
-  # submenu:
-  # - text: Home 2
-  #   url: /pages/index-2
-  # - text: Home 3
-  #   url: /pages/index-3
-- text: GALLERY
-  url: /pages/about
+  url: /
+# - text: GALLERY
+#   url: /pages/portfolio
 - text: COURSES
-  url: /pages/blog
+  url: /pages/portfolio
 - text: SALON
   url: /pages/services
 - text: BLOG
   url: /pages/blog
 - text: CONTACT
-  url: /
   submenu:
   - text: Services
     url: /pages/services
