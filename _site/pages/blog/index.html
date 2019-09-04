@@ -41,6 +41,10 @@
     <link rel="stylesheet" href="/assets/css/default.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/foundation.css">
+    <link rel="stylesheet" href="/assets/css/twentytwenty.css">
+    <link rel="stylesheet" href="/assets/css/twentytwenty-no-compass.css">
+
     <title>Celui Academy</title>
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/index.xml" title="Celui Academy" />
 </head>
@@ -94,17 +98,6 @@
      
      <li>
          <a href="/">HOME</a>
-        
-    </li>
-    
-    
-
-    
-
-    
-     
-     <li>
-         <a href="/pages/portfolio">GALLERY</a>
         
     </li>
     
@@ -191,8 +184,6 @@
             <div class="offcanvas-menu">
              <span class="menu-close"><i class="fas fa-times"></i></span>
 <ul>
-    
-       
     
        
     
@@ -404,7 +395,7 @@
 <ul>
     
     
-    <li class="page-item"><a class="page-link" href="/pages/blog/page2/index.html">Next</a></li> 
+    <li class="page-item"><a class="page-link" href="/pages/blog/pages/blog/2/index.html">Next</a></li> 
     
 </ul>
 </nav>
@@ -670,7 +661,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script> -->
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>    
+    <!-- <script>var $j = jQuery.noConflict(true);</script>
+    <script>
+      $(document).ready(function(){
+       console.log($().jquery); // This prints v1.4.2
+       console.log($j().jquery); // This prints v1.9.1
+      });
+   </script> -->
     <script src="/assets/js/popper.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/slick.min.js"></script>
@@ -684,6 +683,9 @@
     <script src="/assets/js/scrollup.min.js"></script>
     <script src="/assets/js/simple-jekyll-search.min.js"></script>
     <script src="/assets/js/main.js"></script>
+    
+    <script src="/assets/js/override.js"></script>    
+    
 </body>
 
 </html>

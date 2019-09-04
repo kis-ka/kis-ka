@@ -2,8 +2,8 @@
 
 - text: HOME
   url: /
-- text: GALLERY
-  url: /pages/portfolio
+# - text: GALLERY
+#   url: /pages/portfolio
 - text: COURSES
   url: /pages/portfolio
 - text: SALON
