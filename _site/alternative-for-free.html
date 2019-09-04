@@ -589,15 +589,10 @@ s.setAttribute('data-timestamp', +new Date());
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script> -->
-    <script src="/assets/js/jquery-3.4.1.min.js"></script>    
-    <!-- <script>var $j = jQuery.noConflict(true);</script>
-    <script>
-      $(document).ready(function(){
-       console.log($().jquery); // This prints v1.4.2
-       console.log($j().jquery); // This prints v1.9.1
-      });
-   </script> -->
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        var jQuery_1_12_4 = $.noConflict(true);
+    </script>
     <script src="/assets/js/popper.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/slick.min.js"></script>
@@ -611,7 +606,9 @@ s.setAttribute('data-timestamp', +new Date());
     <script src="/assets/js/scrollup.min.js"></script>
     <script src="/assets/js/simple-jekyll-search.min.js"></script>
     <script src="/assets/js/main.js"></script>
-    
+    <!-- Second jQuery  -->
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>    
+
     <script src="/assets/js/override.js"></script>    
     
 </body>
